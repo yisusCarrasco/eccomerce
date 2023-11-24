@@ -48,18 +48,12 @@ if (isset($_REQUEST['guardar'])) {
               <!-- /.card-header -->
               <div class="card-body">
                 <form action="panel.php?modulo=crearUsuario" method="post">
-                    <div class="form-group" style="display:none">
-                      <label >Email</label>
-                      <input type="email" class="form-control" placeholder="Email" >          
-                    </div>
+                    
                     <div class="form-group">
                       <label >Email</label>
                       <input type="email" name="email" class="form-control" placeholder="Email" >          
                     </div>
-                    <div class="form-group" style="display:none">
-                      <label >Contraseña</label>
-                      <input type="password"  class="form-control" placeholder="Contraseña">
-                    </div>
+                    
                     <div class="form-group">
                       <label >Contraseña</label>
                       <input type="password" name="pass" class="form-control" placeholder="Contraseña">
